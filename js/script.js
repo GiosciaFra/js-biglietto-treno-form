@@ -34,12 +34,12 @@ function calcolaPrezzo() {
     risultatoElement.innerHTML = 
 
     `
-        <p>Nome passegero: ${nome}</p>
-        <p>Chilometri: ${km}</p>
-        <p>Età: ${eta}</p>
-        <p>Tipo di sconto: ${tipoSconto}</p>
-        <p>Il prezzo del biglietto è: ${prezzo.toFixed(2)} €</p>
+        <h1 id="titoloRisultato">Ecco qui il tuo biglietto</h1>
+        <p><strong>Nome passegero:</strong> ${nome}</p>
+        <p><strong>Chilometri:</strong> ${km}</p>
+        <p><strong>Età:</strong> ${eta}</p>
+        <p><strong>Tipo di sconto: </strong>${tipoSconto}</p>
+        <p><strong>Il prezzo del biglietto è:</strong> ${prezzo.toFixed(2)} €</p>
         
     `;
-
 }
